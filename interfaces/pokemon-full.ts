@@ -68,6 +68,13 @@ export interface Versions {
     "generation-vii":  GenerationVii;
     "generation-viii": GenerationViii;
 }
+export interface GetPokeInfo{
+    id: string;
+    name: string;
+    sprites: Sprites 
+
+}
+
 
 export interface Sprites {
     back_default:       string;
